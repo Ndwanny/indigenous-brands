@@ -8,6 +8,7 @@ RUN apk add --no-cache \
     zip \
     unzip \
     git \
+    gettext \
     libpng-dev \
     libzip-dev \
     oniguruma-dev \
@@ -49,7 +50,7 @@ COPY docker/nginx.conf /etc/nginx/nginx.conf
 COPY docker/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 COPY docker/php.ini /usr/local/etc/php/conf.d/custom.ini
 
-EXPOSE 8080
+EXPOSE 10000
 
 COPY docker/start.sh /start.sh
 RUN chmod +x /start.sh
