@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php artisan:*)",
+      "WebSearch",
+      "WebFetch(domain:unsplash.com)",
+      "Bash(curl -o /dev/null -s -w \"%{http_code}\" \"https://images.unsplash.com/photo-gFk-2UqcDBU?w=400&h=400&fit=crop\")",
+      "Bash(curl -o /dev/null -s -w \"%{http_code}\" \"https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&h=400&fit=crop\")",
+      "Bash(curl -o /dev/null -s -w \"%{http_code}\" \"https://images.pexels.com/photos/5792871/pexels-photo-5792871.jpeg?w=800\")",
+      "Bash(curl -o /dev/null -s -w \"%{http_code}\" \"https://images.pexels.com/photos/12610340/pexels-photo-12610340.jpeg?w=800\")",
+      "Bash(curl -o /dev/null -s -w \"%{http_code}\" \"https://images.pexels.com/photos/6190149/pexels-photo-6190149.jpeg?w=800\")"
+    ]
+  }
+}
