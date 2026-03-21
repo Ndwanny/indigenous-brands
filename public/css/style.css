@@ -3247,3 +3247,14 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* YouTube popup modal sizing */
+.mfp-iframe-holder .mfp-content {
+  max-width: 860px;
+  width: 90%;
+  margin: 0 auto;
+}
+.mfp-iframe-holder .mfp-close {
+  top: -36px;
+  right: 0;
+}
