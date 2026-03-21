@@ -116,14 +116,14 @@
                                     <h3><a href="{{ route('events.index') }}">{{ $event->title }}</a></h3>
                                     <p class="location"><span class="fa fa-map-marker"></span> {{ $event->location ?? 'Lusaka, Zambia' }}</p>
                                     <ul>
-                                        <li><span class="flaticon-shower"></span>
+                                        <li><span class="fa fa-tag"></span>
                                             @if($event->event_type)
                                                 {{ ucfirst($event->event_type) }}
                                             @else
                                                 Community Event
                                             @endif
                                         </li>
-                                        <li><span class="flaticon-king-size"></span>
+                                        <li><span class="fa fa-calendar"></span>
                                             @if($event->event_date)
                                                 {{ $event->event_date instanceof \Carbon\Carbon
                                                     ? $event->event_date->format('F j, Y')
@@ -132,7 +132,7 @@
                                                 Coming Soon
                                             @endif
                                         </li>
-                                        <li><span class="flaticon-mountains"></span>{{ $event->venue ?? $event->location ?? 'Zambia' }}</li>
+                                        <li><span class="fa fa-location-arrow"></span>{{ $event->venue ?? $event->location ?? 'Zambia' }}</li>
                                     </ul>
                                 </div>
                             </div>

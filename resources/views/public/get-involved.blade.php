@@ -30,9 +30,9 @@
                             <p class="location"><span class="fa fa-map-marker"></span> Lusaka, Zambia</p>
                             <p>Join our platform to showcase your unique Zambian brand to a wider audience. Gain exposure through our events, website, and marketing campaigns.</p>
                             <ul>
-                                <li><span class="flaticon-shower"></span>Brand Exposure</li>
-                                <li><span class="flaticon-king-size"></span>Networking Opportunities</li>
-                                <li><span class="flaticon-mountains"></span>Marketing Support</li>
+                                <li><span class="fa fa-tag"></span>Brand Exposure</li>
+                                <li><span class="fa fa-calendar"></span>Networking Opportunities</li>
+                                <li><span class="fa fa-location-arrow"></span>Marketing Support</li>
                             </ul>
                             <p><a href="{{ route('contact') }}" class="btn btn-primary px-4 py-2">Apply Now</a></p>
                         </div>
@@ -50,9 +50,9 @@
                             <p class="location"><span class="fa fa-map-marker"></span> Lusaka, Zambia</p>
                             <p>Collaborate with Indigenous Brands to support Zambian entrepreneurs. Sponsor our events or partner with us to promote creativity and innovation.</p>
                             <ul>
-                                <li><span class="flaticon-shower"></span>Event Sponsorship</li>
-                                <li><span class="flaticon-king-size"></span>Brand Collaboration</li>
-                                <li><span class="flaticon-sun-umbrella"></span>Community Impact</li>
+                                <li><span class="fa fa-tag"></span>Event Sponsorship</li>
+                                <li><span class="fa fa-calendar"></span>Brand Collaboration</li>
+                                <li><span class="fa fa-heart"></span>Community Impact</li>
                             </ul>
                             <p><a href="{{ route('contact') }}" class="btn btn-primary px-4 py-2">Inquire Now</a></p>
                         </div>
@@ -70,9 +70,9 @@
                             <p class="location"><span class="fa fa-map-marker"></span> Lusaka, Zambia</p>
                             <p>Be part of our movement by volunteering at events or becoming an ambassador to promote Indigenous Brands in your community.</p>
                             <ul>
-                                <li><span class="flaticon-shower"></span>Event Support</li>
-                                <li><span class="flaticon-king-size"></span>Community Engagement</li>
-                                <li><span class="flaticon-sun-umbrella"></span>Brand Advocacy</li>
+                                <li><span class="fa fa-tag"></span>Event Support</li>
+                                <li><span class="fa fa-calendar"></span>Community Engagement</li>
+                                <li><span class="fa fa-heart"></span>Brand Advocacy</li>
                             </ul>
                             <p><a href="#volunteer-form" class="btn btn-primary px-4 py-2">Sign Up</a></p>
                         </div>

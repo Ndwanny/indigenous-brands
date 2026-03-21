@@ -138,7 +138,7 @@
                     <div class="row">
                         <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
                             <div class="services services-1 color-1 d-block img" style="background-image: url('https://i.ibb.co/mCBC0x28/1-18.jpg');">
-                                <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-paragliding"></span></div>
+                                <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-rocket"></span></div>
                                 <div class="media-body">
                                     <h3 class="heading mb-3">Brand Features</h3>
                                     <p>Showcase your Zambian-made products to a passionate community.</p>
@@ -147,7 +147,7 @@
                         </div>
                         <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
                             <div class="services services-1 color-2 d-block img" style="background-image: url('https://i.ibb.co/dRLr6zG/1-12.jpg');">
-                                <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-route"></span></div>
+                                <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-road"></span></div>
                                 <div class="media-body">
                                     <h3 class="heading mb-3">Events &amp; Bootcamps</h3>
                                     <p>Join our Coffee Dates and Bootcamps to network and learn.</p>
@@ -156,7 +156,7 @@
                         </div>
                         <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
                             <div class="services services-1 color-3 d-block img" style="background-image: url('https://i.ibb.co/k60rzb0t/1-16.jpg');">
-                                <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-tour-guide"></span></div>
+                                <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-users"></span></div>
                                 <div class="media-body">
                                     <h3 class="heading mb-3">Community Support</h3>
                                     <p>Connect with mentors, partners, and ambassadors to grow your brand.</p>
@@ -165,7 +165,7 @@
                         </div>
                         <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
                             <div class="services services-1 color-4 d-block img" style="background-image: url('https://i.ibb.co/Csp2yHc6/1-2.jpg');">
-                                <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-map"></span></div>
+                                <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-map-marker"></span></div>
                                 <div class="media-body">
                                     <h3 class="heading mb-3">Newsletter</h3>
                                     <p>Stay updated with the latest IB news and opportunities.</p>
@@ -238,9 +238,9 @@
                                     <h3><a href="{{ route('events.index') }}">{{ $event->title }}</a></h3>
                                     <p class="location"><span class="fa fa-map-marker"></span> {{ $event->location }}</p>
                                     <ul>
-                                        <li><span class="flaticon-shower"></span>{{ $event->event_type ?? 'Community Event' }}</li>
-                                        <li><span class="flaticon-king-size"></span>{{ $event->event_date instanceof \Carbon\Carbon ? $event->event_date->format('F j, Y') : $event->event_date }}</li>
-                                        <li><span class="flaticon-mountains"></span>{{ $event->venue ?? $event->location }}</li>
+                                        <li><span class="fa fa-tag"></span>{{ $event->event_type ?? 'Community Event' }}</li>
+                                        <li><span class="fa fa-calendar"></span>{{ $event->event_date instanceof \Carbon\Carbon ? $event->event_date->format('F j, Y') : $event->event_date }}</li>
+                                        <li><span class="fa fa-location-arrow"></span>{{ $event->venue ?? $event->location }}</li>
                                     </ul>
                                 </div>
                             </div>

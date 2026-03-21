@@ -114,12 +114,12 @@
                                         <p class="text-muted small mb-2"><em>{{ Str::limit($brand->tagline, 80) }}</em></p>
                                     @endif
                                     <ul>
-                                        <li><span class="flaticon-shower"></span>{{ $brand->category->name ?? 'Local Brand' }}</li>
+                                        <li><span class="fa fa-tag"></span>{{ $brand->category->name ?? 'Local Brand' }}</li>
                                         @if($brand->location)
-                                            <li><span class="flaticon-king-size"></span>{{ $brand->location }}</li>
+                                            <li><span class="fa fa-calendar"></span>{{ $brand->location }}</li>
                                         @endif
                                         @if($brand->tagline)
-                                            <li><span class="flaticon-mountains"></span>{{ Str::limit($brand->tagline, 30) }}</li>
+                                            <li><span class="fa fa-location-arrow"></span>{{ Str::limit($brand->tagline, 30) }}</li>
                                         @endif
                                     </ul>
                                     <p class="mt-3">
