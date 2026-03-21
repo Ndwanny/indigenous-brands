@@ -256,10 +256,13 @@
     removalDelay: 160,
     preloader: false,
     fixedContentPos: true,
+    closeOnBgClick: true,
     iframe: {
-      markup: '<div class="mfp-iframe-scaler">'+
-                '<div class="mfp-close"></div>'+
-                '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+      markup: '<div class="mfp-video-modal">'+
+                '<button title="Close (Esc)" type="button" class="mfp-close mfp-video-close">&#215;</button>'+
+                '<div class="mfp-iframe-scaler">'+
+                  '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+                '</div>'+
               '</div>'
     }
   });
