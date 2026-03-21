@@ -5,7 +5,7 @@
 @section('content')
 
     {{-- ===================== HERO SECTION ===================== --}}
-    <div class="hero-wrap js-fullheight" style="background-image: url('https://i.ibb.co/q3361P8S/1-19.jpg');">
+    <div class="hero-wrap js-fullheight" style="background-image: url('{{ asset('images/hero-bg.jpg') }}');">
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
