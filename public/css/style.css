@@ -3250,6 +3250,8 @@ textarea.form-control {
 
 /* YouTube / video popup modal */
 .mfp-iframe-holder .mfp-content {
+  display: inline-block;
+  vertical-align: middle;
   max-width: 800px;
   width: 90%;
   margin: 0 auto;
@@ -3257,9 +3259,8 @@ textarea.form-control {
 
 .mfp-video-modal {
   position: relative;
-  max-width: 800px;
-  width: 90%;
-  margin: 40px auto;
+  width: 100%;
+  padding-top: 50px;
 }
 
 .mfp-video-modal .mfp-iframe-scaler {
@@ -3270,7 +3271,7 @@ textarea.form-control {
 
 .mfp-video-close {
   position: absolute;
-  top: -44px;
+  top: 4px;
   right: 0;
   width: 36px;
   height: 36px;
